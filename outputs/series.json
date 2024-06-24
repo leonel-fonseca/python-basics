@@ -1,0 +1,2483 @@
+{
+    "@context": [
+        "https://geojson.org/geojson-ld/geojson-context.jsonld",
+        {
+            "@version": "1.1",
+            "wx": "https://api.weather.gov/ontology#",
+            "@vocab": "https://api.weather.gov/ontology#"
+        }
+    ],
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1e320c76957e0cd69c7f41a0d0f7858776a999d2.001.1",
+            "type": "Feature",
+            "geometry": null,
+            "properties": {
+                "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1e320c76957e0cd69c7f41a0d0f7858776a999d2.001.1",
+                "@type": "wx:Alert",
+                "id": "urn:oid:2.49.0.1.840.0.1e320c76957e0cd69c7f41a0d0f7858776a999d2.001.1",
+                "areaDesc": "Randolph",
+                "geocode": {
+                    "SAME": [
+                        "029175"
+                    ],
+                    "UGC": [
+                        "MOZ033"
+                    ]
+                },
+                "affectedZones": [
+                    "https://api.weather.gov/zones/forecast/MOZ033"
+                ],
+                "references": [],
+                "sent": "2024-06-24T01:52:00-05:00",
+                "effective": "2024-06-24T01:52:00-05:00",
+                "onset": "2024-06-24T12:00:00-05:00",
+                "expires": "2024-06-24T10:00:00-05:00",
+                "ends": "2024-06-25T20:00:00-05:00",
+                "status": "Actual",
+                "messageType": "Alert",
+                "category": "Met",
+                "severity": "Moderate",
+                "certainty": "Likely",
+                "urgency": "Expected",
+                "event": "Heat Advisory",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "senderName": "NWS Kansas City/Pleasant Hill MO",
+                "headline": "Heat Advisory issued June 24 at 1:52AM CDT until June 25 at 8:00PM CDT by NWS Kansas City/Pleasant Hill MO",
+                "description": "* WHAT...Heat index values up to 107 expected.\n\n* WHERE...Randolph County.\n\n* WHEN...From noon today to 8 PM CDT Tuesday.\n\n* IMPACTS...Hot temperatures and high humidity may cause heat\nillnesses.",
+                "instruction": "Drink plenty of fluids, stay in an air-conditioned room, stay out of\nthe sun, and check up on relatives and neighbors.",
+                "response": "Execute",
+                "parameters": {
+                    "AWIPSidentifier": [
+                        "NPWEAX"
+                    ],
+                    "WMOidentifier": [
+                        "WWUS73 KEAX 240652"
+                    ],
+                    "NWSheadline": [
+                        "HEAT ADVISORY IN EFFECT FROM NOON TODAY TO 8 PM CDT TUESDAY"
+                    ],
+                    "BLOCKCHANNEL": [
+                        "EAS",
+                        "NWEM",
+                        "CMAS"
+                    ],
+                    "VTEC": [
+                        "/O.EXB.KEAX.HT.Y.0002.240624T1700Z-240626T0100Z/"
+                    ],
+                    "eventEndingTime": [
+                        "2024-06-26T01:00:00+00:00"
+                    ]
+                }
+            }
+        },
+        {
+            "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f5c7727867c7ae550f2840badea429ff3ee2bb86.001.1",
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -104.49,
+                            47.44
+                        ],
+                        [
+                            -106.36999999999999,
+                            47.39
+                        ],
+                        [
+                            -106.38,
+                            47.56
+                        ],
+                        [
+                            -105.78,
+                            48.2
+                        ],
+                        [
+                            -104.86,
+                            48.42
+                        ],
+                        [
+                            -104.05,
+                            48.440000000000005
+                        ],
+                        [
+                            -104.05,
+                            47.99
+                        ],
+                        [
+                            -104.49,
+                            47.44
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f5c7727867c7ae550f2840badea429ff3ee2bb86.001.1",
+                "@type": "wx:Alert",
+                "id": "urn:oid:2.49.0.1.840.0.f5c7727867c7ae550f2840badea429ff3ee2bb86.001.1",
+                "areaDesc": "Central and Southern Valley; Sheridan; Western Roosevelt; Garfield; McCone; Richland; Dawson; Eastern Roosevelt",
+                "geocode": {
+                    "SAME": [
+                        "030105",
+                        "030091",
+                        "030085",
+                        "030033",
+                        "030055",
+                        "030083",
+                        "030021"
+                    ],
+                    "UGC": [
+                        "MTZ017",
+                        "MTZ019",
+                        "MTZ020",
+                        "MTZ022",
+                        "MTZ023",
+                        "MTZ024",
+                        "MTZ025",
+                        "MTZ062"
+                    ]
+                },
+                "affectedZones": [
+                    "https://api.weather.gov/zones/forecast/MTZ017",
+                    "https://api.weather.gov/zones/forecast/MTZ019",
+                    "https://api.weather.gov/zones/forecast/MTZ020",
+                    "https://api.weather.gov/zones/forecast/MTZ022",
+                    "https://api.weather.gov/zones/forecast/MTZ023",
+                    "https://api.weather.gov/zones/forecast/MTZ024",
+                    "https://api.weather.gov/zones/forecast/MTZ025",
+                    "https://api.weather.gov/zones/forecast/MTZ062"
+                ],
+                "references": [],
+                "sent": "2024-06-24T00:52:00-06:00",
+                "effective": "2024-06-24T00:52:00-06:00",
+                "onset": "2024-06-24T00:52:00-06:00",
+                "expires": "2024-06-24T01:45:00-06:00",
+                "ends": null,
+                "status": "Actual",
+                "messageType": "Alert",
+                "category": "Met",
+                "severity": "Moderate",
+                "certainty": "Observed",
+                "urgency": "Expected",
+                "event": "Special Weather Statement",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "senderName": "NWS Glasgow MT",
+                "headline": "Special Weather Statement issued June 24 at 12:52AM MDT by NWS Glasgow MT",
+                "description": "At 1252 AM MDT, Doppler radar was tracking strong thunderstorms along\na line extending from near Culbertson to 12 miles northeast of\nFlowing Wells Rest Area. Movement was east at 60 mph.\n\nHAZARD...Winds in excess of 40 mph and nickel size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects. Minor damage to outdoor objects is\npossible.\n\nLocations impacted include...\nWolf Point, Poplar, Culbertson, Circle, Brockton, Bainville, Froid,\nRichey, Lambert, Vida, Nelson Creek Rec Area, Rock Creek Rec Area,\nOswego, Snowden, Fort Kipp, Homestead, Enid, Nohly, Sprole, and\nMccabe.",
+                "instruction": "If outdoors, consider seeking shelter inside a building.",
+                "response": "Execute",
+                "parameters": {
+                    "AWIPSidentifier": [
+                        "SPSGGW"
+                    ],
+                    "WMOidentifier": [
+                        "WWUS85 KGGW 240652"
+                    ],
+                    "NWSheadline": [
+                        "Strong thunderstorms will impact portions of east central Garfield, Roosevelt, southeastern Valley, southeastern Sheridan, McCone, Richland and northern Dawson Counties through 145 AM MDT"
+                    ],
+                    "eventMotionDescription": [
+                        "2024-06-24T06:52:00-00:00...storm...261DEG...52KT...48.21,-104.52 47.43,-105.95"
+                    ],
+                    "maxWindGust": [
+                        "40 MPH"
+                    ],
+                    "maxHailSize": [
+                        "0.88"
+                    ],
+                    "BLOCKCHANNEL": [
+                        "EAS",
+                        "NWEM",
+                        "CMAS"
+                    ],
+                    "EAS-ORG": [
+                        "WXR"
+                    ]
+                }
+            }
+        },
+        {
+            "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cede6c4fb2404ece70349c3697f60237f3f01080.001.1",
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -76,
+                            36.69
+                        ],
+                        [
+                            -76.2,
+                            36.55
+                        ],
+                        [
+                            -76.29,
+                            36.55
+                        ],
+                        [
+                            -76.49000000000001,
+                            36.58
+                        ],
+                        [
+                            -76.48,
+                            36.65
+                        ],
+                        [
+                            -76.38000000000001,
+                            36.72
+                        ],
+                        [
+                            -76.23,
+                            36.85
+                        ],
+                        [
+                            -75.95,
+                            36.870000000000005
+                        ],
+                        [
+                            -75.91,
+                            36.790000000000006
+                        ],
+                        [
+                            -76,
+                            36.69
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cede6c4fb2404ece70349c3697f60237f3f01080.001.1",
+                "@type": "wx:Alert",
+                "id": "urn:oid:2.49.0.1.840.0.cede6c4fb2404ece70349c3697f60237f3f01080.001.1",
+                "areaDesc": "Norfolk/Portsmouth; Chesapeake; Virginia Beach",
+                "geocode": {
+                    "SAME": [
+                        "051710",
+                        "051740",
+                        "051550",
+                        "051810"
+                    ],
+                    "UGC": [
+                        "VAZ095",
+                        "VAZ097",
+                        "VAZ098"
+                    ]
+                },
+                "affectedZones": [
+                    "https://api.weather.gov/zones/forecast/VAZ095",
+                    "https://api.weather.gov/zones/forecast/VAZ097",
+                    "https://api.weather.gov/zones/forecast/VAZ098"
+                ],
+                "references": [],
+                "sent": "2024-06-24T02:48:00-04:00",
+                "effective": "2024-06-24T02:48:00-04:00",
+                "onset": "2024-06-24T02:48:00-04:00",
+                "expires": "2024-06-24T03:30:00-04:00",
+                "ends": null,
+                "status": "Actual",
+                "messageType": "Alert",
+                "category": "Met",
+                "severity": "Moderate",
+                "certainty": "Observed",
+                "urgency": "Expected",
+                "event": "Special Weather Statement",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "senderName": "NWS Wakefield VA",
+                "headline": "Special Weather Statement issued June 24 at 2:48AM EDT by NWS Wakefield VA",
+                "description": "At 247 AM EDT, Doppler radar was tracking strong thunderstorms along\na line extending from Regent University to near Chesapeake to 8 miles\nnortheast of Corapeake. Movement was east at 20 mph.\n\nHAZARD...Wind gusts up to 40 mph.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects.\n\nStrong thunderstorms will be near...\nVirginia Beach, Great Bridge, Kempsville, Chesapeake, and Fentress\naround 255 AM EDT.\nPrincess Anne around 305 AM EDT.\n\nOther locations impacted by these storms include South Norfolk, Rudee\nHeights, Portlock, Mount Pleasant, Princess Anne Plaza, Sigma,\nHerberts Corner, Oceana NAS, Macons Corner, and Pungo.",
+                "instruction": "If outdoors, consider seeking shelter inside a building.",
+                "response": "Execute",
+                "parameters": {
+                    "AWIPSidentifier": [
+                        "SPSAKQ"
+                    ],
+                    "WMOidentifier": [
+                        "WWUS81 KAKQ 240648"
+                    ],
+                    "NWSheadline": [
+                        "STRONG THUNDERSTORMS WILL IMPACT ...THE SOUTHEASTERN CITY OF NORFOLK...THE CITY OF CHESAPEAKE AND THE CENTRAL CITY OF VIRGINIA BEACH THROUGH 330 AM EDT"
+                    ],
+                    "eventMotionDescription": [
+                        "2024-06-24T06:47:00-00:00...storm...273DEG...19KT...36.82,-76.2 36.72,-76.29 36.61,-76.46"
+                    ],
+                    "maxWindGust": [
+                        "40 MPH"
+                    ],
+                    "maxHailSize": [
+                        "0.00"
+                    ],
+                    "BLOCKCHANNEL": [
+                        "EAS",
+                        "NWEM",
+                        "CMAS"
+                    ],
+                    "EAS-ORG": [
+                        "WXR"
+                    ]
+                }
+            }
+        },
+        {
+            "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.937744fe695a576d7c41311be424c79898d40537.001.1",
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -112.52,
+                            34.14
+                        ],
+                        [
+                            -112.61,
+                            34.07
+                        ],
+                        [
+                            -112.7,
+                            34.02
+                        ],
+                        [
+                            -112.74000000000001,
+                            34
+                        ],
+                        [
+                            -112.75000000000001,
+                            34
+                        ],
+                        [
+                            -112.78000000000002,
+                            34
+                        ],
+                        [
+                            -112.81000000000002,
+                            34.03
+                        ],
+                        [
+                            -112.76000000000002,
+                            34.11
+                        ],
+                        [
+                            -112.75000000000001,
+                            34.11
+                        ],
+                        [
+                            -112.74000000000001,
+                            34.19
+                        ],
+                        [
+                            -112.62,
+                            34.19
+                        ],
+                        [
+                            -112.53,
+                            34.19
+                        ],
+                        [
+                            -112.52,
+                            34.14
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.937744fe695a576d7c41311be424c79898d40537.001.1",
+                "@type": "wx:Alert",
+                "id": "urn:oid:2.49.0.1.840.0.937744fe695a576d7c41311be424c79898d40537.001.1",
+                "areaDesc": "Yavapai, AZ",
+                "geocode": {
+                    "SAME": [
+                        "004025"
+                    ],
+                    "UGC": [
+                        "AZC025"
+                    ]
+                },
+                "affectedZones": [
+                    "https://api.weather.gov/zones/county/AZC025"
+                ],
+                "references": [],
+                "sent": "2024-06-23T23:44:00-07:00",
+                "effective": "2024-06-23T23:44:00-07:00",
+                "onset": "2024-06-23T23:44:00-07:00",
+                "expires": "2024-06-23T23:54:00-07:00",
+                "ends": "2024-06-23T23:45:00-07:00",
+                "status": "Actual",
+                "messageType": "Alert",
+                "category": "Met",
+                "severity": "Severe",
+                "certainty": "Likely",
+                "urgency": "Immediate",
+                "event": "Flash Flood Warning",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "senderName": "NWS Flagstaff AZ",
+                "headline": "Flash Flood Warning issued June 23 at 11:44PM MST until June 23 at 11:45PM MST by NWS Flagstaff AZ",
+                "description": "The heavy rain has ended. Flooding is no longer expected to pose an\nimmediate threat. Please continue to heed remaining road closures.",
+                "instruction": null,
+                "response": "Avoid",
+                "parameters": {
+                    "AWIPSidentifier": [
+                        "FFSFGZ"
+                    ],
+                    "WMOidentifier": [
+                        "WGUS75 KFGZ 240644"
+                    ],
+                    "NWSheadline": [
+                        "FLASH FLOOD WARNING WILL EXPIRE AT 1145 PM MST THIS EVENING FOR YAVAPAI COUNTY"
+                    ],
+                    "BLOCKCHANNEL": [
+                        "EAS",
+                        "NWEM",
+                        "CMAS"
+                    ],
+                    "EAS-ORG": [
+                        "WXR"
+                    ],
+                    "VTEC": [
+                        "/O.EXP.KFGZ.FF.W.0006.000000T0000Z-240624T0645Z/"
+                    ],
+                    "eventEndingTime": [
+                        "2024-06-24T06:45:00+00:00"
+                    ],
+                    "expiredReferences": [
+                        "w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.c7f98badd5b5f0c40cf495bce65196a0c9b873f8.001.1,2024-06-23T21:28:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.f1f8486c103b668e3db55ae5453d5ee90fada4db.001.1,2024-06-23T20:40:00-07:00"
+                    ]
+                }
+            }
+        },
+        {
+            "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9b18b8d9538071dcceec00224d910b4c46b63b03.001.1",
+            "type": "Feature",
+            "geometry": null,
+            "properties": {
+                "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9b18b8d9538071dcceec00224d910b4c46b63b03.001.1",
+                "@type": "wx:Alert",
+                "id": "urn:oid:2.49.0.1.840.0.9b18b8d9538071dcceec00224d910b4c46b63b03.001.1",
+                "areaDesc": "Suwannee; Baker; Inland Nassau; Union; Bradford; Inland St. Johns; Gilchrist; Inland Flagler; Eastern Hamilton; Coastal Nassau; Coastal Duval; Eastern Clay; Coastal St. Johns; Eastern Putnam; Coastal Flagler; Western Hamilton; Trout River; Western Clay; Northern Columbia; South Central Duval; Southeastern Columbia; Western Duval; Southwestern Columbia",
+                "geocode": {
+                    "SAME": [
+                        "012121",
+                        "012003",
+                        "012089",
+                        "012125",
+                        "012007",
+                        "012109",
+                        "012041",
+                        "012035",
+                        "012031",
+                        "012019",
+                        "012107"
+                    ],
+                    "UGC": [
+                        "FLZ021",
+                        "FLZ023",
+                        "FLZ024",
+                        "FLZ030",
+                        "FLZ031",
+                        "FLZ033",
+                        "FLZ035",
+                        "FLZ038",
+                        "FLZ120",
+                        "FLZ124",
+                        "FLZ125",
+                        "FLZ132",
+                        "FLZ133",
+                        "FLZ137",
+                        "FLZ138",
+                        "FLZ220",
+                        "FLZ225",
+                        "FLZ232",
+                        "FLZ322",
+                        "FLZ325",
+                        "FLZ422",
+                        "FLZ425",
+                        "FLZ522"
+                    ]
+                },
+                "affectedZones": [
+                    "https://api.weather.gov/zones/forecast/FLZ021",
+                    "https://api.weather.gov/zones/forecast/FLZ023",
+                    "https://api.weather.gov/zones/forecast/FLZ024",
+                    "https://api.weather.gov/zones/forecast/FLZ030",
+                    "https://api.weather.gov/zones/forecast/FLZ031",
+                    "https://api.weather.gov/zones/forecast/FLZ033",
+                    "https://api.weather.gov/zones/forecast/FLZ035",
+                    "https://api.weather.gov/zones/forecast/FLZ038",
+                    "https://api.weather.gov/zones/forecast/FLZ120",
+                    "https://api.weather.gov/zones/forecast/FLZ124",
+                    "https://api.weather.gov/zones/forecast/FLZ125",
+                    "https://api.weather.gov/zones/forecast/FLZ132",
+                    "https://api.weather.gov/zones/forecast/FLZ133",
+                    "https://api.weather.gov/zones/forecast/FLZ137",
+                    "https://api.weather.gov/zones/forecast/FLZ138",
+                    "https://api.weather.gov/zones/forecast/FLZ220",
+                    "https://api.weather.gov/zones/forecast/FLZ225",
+                    "https://api.weather.gov/zones/forecast/FLZ232",
+                    "https://api.weather.gov/zones/forecast/FLZ322",
+                    "https://api.weather.gov/zones/forecast/FLZ325",
+                    "https://api.weather.gov/zones/forecast/FLZ422",
+                    "https://api.weather.gov/zones/forecast/FLZ425",
+                    "https://api.weather.gov/zones/forecast/FLZ522"
+                ],
+                "references": [],
+                "sent": "2024-06-24T02:34:00-04:00",
+                "effective": "2024-06-24T02:34:00-04:00",
+                "onset": "2024-06-24T13:00:00-04:00",
+                "expires": "2024-06-24T10:45:00-04:00",
+                "ends": "2024-06-24T19:00:00-04:00",
+                "status": "Actual",
+                "messageType": "Alert",
+                "category": "Met",
+                "severity": "Moderate",
+                "certainty": "Likely",
+                "urgency": "Expected",
+                "event": "Heat Advisory",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "senderName": "NWS Jacksonville FL",
+                "headline": "Heat Advisory issued June 24 at 2:34AM EDT until June 24 at 7:00PM EDT by NWS Jacksonville FL",
+                "description": "* WHAT...Heat index values up to 109 expected.\n\n* WHERE...Portions of northeast and northern Florida.\n\n* WHEN...From 1 PM this afternoon to 7 PM EDT this evening.\n\n* IMPACTS...Hot temperatures and high humidity may cause heat\nillnesses.",
+                "instruction": "Drink plenty of fluids, stay in an air-conditioned room, stay out of\nthe sun, and check up on relatives and neighbors.\n\nTake extra precautions when outside. Wear lightweight and loose\nfitting clothing. Try to limit strenuous activities to early morning\nor evening. Take action when you see symptoms of heat exhaustion and\nheat stroke.\n\nTo reduce risk during outdoor work, the Occupational Safety and\nHealth Administration recommends scheduling frequent rest breaks in\nshaded or air conditioned environments. Anyone overcome by heat\nshould be moved to a cool and shaded location. Heat stroke is an\nemergency! Call 9 1 1.",
+                "response": "Execute",
+                "parameters": {
+                    "AWIPSidentifier": [
+                        "NPWJAX"
+                    ],
+                    "WMOidentifier": [
+                        "WWUS72 KJAX 240634"
+                    ],
+                    "NWSheadline": [
+                        "HEAT ADVISORY IN EFFECT FROM 1 PM THIS AFTERNOON TO 7 PM EDT THIS EVENING"
+                    ],
+                    "BLOCKCHANNEL": [
+                        "EAS",
+                        "NWEM",
+                        "CMAS"
+                    ],
+                    "VTEC": [
+                        "/O.NEW.KJAX.HT.Y.0002.240624T1700Z-240624T2300Z/"
+                    ],
+                    "eventEndingTime": [
+                        "2024-06-24T23:00:00+00:00"
+                    ]
+                }
+            }
+        },
+        {
+            "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.20bb79827e655e8da2f7b5ac0832ef752c9258d8.001.1",
+            "type": "Feature",
+            "geometry": null,
+            "properties": {
+                "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.20bb79827e655e8da2f7b5ac0832ef752c9258d8.001.1",
+                "@type": "wx:Alert",
+                "id": "urn:oid:2.49.0.1.840.0.20bb79827e655e8da2f7b5ac0832ef752c9258d8.001.1",
+                "areaDesc": "North Walton; Central Walton; Holmes; Washington; Jackson; Inland Bay; Calhoun; Inland Gulf; Inland Franklin; Gadsden; Leon; Inland Jefferson; Madison; Liberty; Inland Wakulla; Inland Taylor; Lafayette; Inland Dixie; South Walton; Coastal Bay; Coastal Gulf; Coastal Franklin; Coastal Wakulla",
+                "geocode": {
+                    "SAME": [
+                        "012131",
+                        "012059",
+                        "012133",
+                        "012063",
+                        "012005",
+                        "012013",
+                        "012045",
+                        "012037",
+                        "012039",
+                        "012073",
+                        "012065",
+                        "012079",
+                        "012077",
+                        "012129",
+                        "012123",
+                        "012067",
+                        "012029"
+                    ],
+                    "UGC": [
+                        "FLZ007",
+                        "FLZ008",
+                        "FLZ009",
+                        "FLZ010",
+                        "FLZ011",
+                        "FLZ012",
+                        "FLZ013",
+                        "FLZ014",
+                        "FLZ015",
+                        "FLZ016",
+                        "FLZ017",
+                        "FLZ018",
+                        "FLZ019",
+                        "FLZ026",
+                        "FLZ027",
+                        "FLZ028",
+                        "FLZ029",
+                        "FLZ034",
+                        "FLZ108",
+                        "FLZ112",
+                        "FLZ114",
+                        "FLZ115",
+                        "FLZ127"
+                    ]
+                },
+                "affectedZones": [
+                    "https://api.weather.gov/zones/forecast/FLZ007",
+                    "https://api.weather.gov/zones/forecast/FLZ008",
+                    "https://api.weather.gov/zones/forecast/FLZ009",
+                    "https://api.weather.gov/zones/forecast/FLZ010",
+                    "https://api.weather.gov/zones/forecast/FLZ011",
+                    "https://api.weather.gov/zones/forecast/FLZ012",
+                    "https://api.weather.gov/zones/forecast/FLZ013",
+                    "https://api.weather.gov/zones/forecast/FLZ014",
+                    "https://api.weather.gov/zones/forecast/FLZ015",
+                    "https://api.weather.gov/zones/forecast/FLZ016",
+                    "https://api.weather.gov/zones/forecast/FLZ017",
+                    "https://api.weather.gov/zones/forecast/FLZ018",
+                    "https://api.weather.gov/zones/forecast/FLZ019",
+                    "https://api.weather.gov/zones/forecast/FLZ026",
+                    "https://api.weather.gov/zones/forecast/FLZ027",
+                    "https://api.weather.gov/zones/forecast/FLZ028",
+                    "https://api.weather.gov/zones/forecast/FLZ029",
+                    "https://api.weather.gov/zones/forecast/FLZ034",
+                    "https://api.weather.gov/zones/forecast/FLZ108",
+                    "https://api.weather.gov/zones/forecast/FLZ112",
+                    "https://api.weather.gov/zones/forecast/FLZ114",
+                    "https://api.weather.gov/zones/forecast/FLZ115",
+                    "https://api.weather.gov/zones/forecast/FLZ127"
+                ],
+                "references": [],
+                "sent": "2024-06-24T01:31:00-05:00",
+                "effective": "2024-06-24T01:31:00-05:00",
+                "onset": "2024-06-24T11:00:00-05:00",
+                "expires": "2024-06-24T18:00:00-05:00",
+                "ends": "2024-06-24T18:00:00-05:00",
+                "status": "Actual",
+                "messageType": "Alert",
+                "category": "Met",
+                "severity": "Moderate",
+                "certainty": "Likely",
+                "urgency": "Expected",
+                "event": "Heat Advisory",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "senderName": "NWS Tallahassee FL",
+                "headline": "Heat Advisory issued June 24 at 1:31AM CDT until June 24 at 6:00PM CDT by NWS Tallahassee FL",
+                "description": "* WHAT...Heat index values up to 110 expected.\n\n* WHERE...Portions of the Big Bend and the Panhandle of Florida.\n\n* WHEN...From 11 AM CDT /noon EDT/ this morning to 6 PM CDT /7 PM\nEDT/ this evening.\n\n* IMPACTS...Hot temperatures and high humidity may cause heat\nillnesses.",
+                "instruction": "Drink plenty of fluids, stay in an air-conditioned room, stay out of\nthe sunshine, and check up on relatives and neighbors.\n\nTake extra precautions if you work or spend time outside. When\npossible reschedule strenuous activities to early morning or\nevening. Know the signs and symptoms of heat exhaustion and heat\nstroke. Wear lightweight and loose fitting clothing when possible.",
+                "response": "Execute",
+                "parameters": {
+                    "AWIPSidentifier": [
+                        "NPWTAE"
+                    ],
+                    "WMOidentifier": [
+                        "WWUS72 KTAE 240631"
+                    ],
+                    "NWSheadline": [
+                        "HEAT ADVISORY IN EFFECT FROM 11 AM CDT /NOON EDT/ THIS MORNING TO 6 PM CDT /7 PM EDT/ THIS EVENING"
+                    ],
+                    "BLOCKCHANNEL": [
+                        "EAS",
+                        "NWEM",
+                        "CMAS"
+                    ],
+                    "VTEC": [
+                        "/O.NEW.KTAE.HT.Y.0002.240624T1600Z-240624T2300Z/"
+                    ],
+                    "eventEndingTime": [
+                        "2024-06-24T23:00:00+00:00"
+                    ]
+                }
+            }
+        },
+        {
+            "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e591f3905c9f83653ce6848568cc0c6b7bfdcde0.001.1",
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -102.02,
+                            48.81
+                        ],
+                        [
+                            -102.14999999999999,
+                            48.81
+                        ],
+                        [
+                            -102.16,
+                            48.72
+                        ],
+                        [
+                            -102.2099999,
+                            48.72
+                        ],
+                        [
+                            -102.52,
+                            48.83
+                        ],
+                        [
+                            -102.36999999999999,
+                            49
+                        ],
+                        [
+                            -102.02,
+                            49
+                        ],
+                        [
+                            -102.02,
+                            48.81
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e591f3905c9f83653ce6848568cc0c6b7bfdcde0.001.1",
+                "@type": "wx:Alert",
+                "id": "urn:oid:2.49.0.1.840.0.e591f3905c9f83653ce6848568cc0c6b7bfdcde0.001.1",
+                "areaDesc": "Burke, ND",
+                "geocode": {
+                    "SAME": [
+                        "038013"
+                    ],
+                    "UGC": [
+                        "NDC013"
+                    ]
+                },
+                "affectedZones": [
+                    "https://api.weather.gov/zones/county/NDC013"
+                ],
+                "references": [],
+                "sent": "2024-06-24T01:26:00-05:00",
+                "effective": "2024-06-24T01:26:00-05:00",
+                "onset": "2024-06-24T01:26:00-05:00",
+                "expires": "2024-06-24T02:00:00-05:00",
+                "ends": "2024-06-24T02:00:00-05:00",
+                "status": "Actual",
+                "messageType": "Alert",
+                "category": "Met",
+                "severity": "Severe",
+                "certainty": "Observed",
+                "urgency": "Immediate",
+                "event": "Severe Thunderstorm Warning",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "senderName": "NWS Bismarck ND",
+                "headline": "Severe Thunderstorm Warning issued June 24 at 1:26AM CDT until June 24 at 2:00AM CDT by NWS Bismarck ND",
+                "description": "SVRBIS\n\nThe National Weather Service in Bismarck has issued a\n\n* Severe Thunderstorm Warning for...\nNortheastern Burke County in northwestern North Dakota...\n\n* Until 200 AM CDT.\n\n* At 125 AM CDT, a severe thunderstorm was located 5 miles east of\nFlaxton, or 42 miles north of Stanley, moving southeast at 35 mph.\n\nHAZARD...Golf ball size hail and 60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...People and animals outdoors will be injured. Expect hail\ndamage to roofs, siding, windows, and vehicles. Expect\nwind damage to roofs, siding, and trees.\n\n* Locations impacted include...\nBowbells, Flaxton, Northgate, and Coteau.",
+                "instruction": "For your protection move to an interior room on the lowest floor of a\nbuilding.",
+                "response": "Shelter",
+                "parameters": {
+                    "AWIPSidentifier": [
+                        "SVRBIS"
+                    ],
+                    "WMOidentifier": [
+                        "WUUS53 KBIS 240626"
+                    ],
+                    "eventMotionDescription": [
+                        "2024-06-24T06:25:00-00:00...storm...295DEG...31KT...48.92,-102.27"
+                    ],
+                    "windThreat": [
+                        "RADAR INDICATED"
+                    ],
+                    "maxWindGust": [
+                        "60 MPH"
+                    ],
+                    "hailThreat": [
+                        "RADAR INDICATED"
+                    ],
+                    "maxHailSize": [
+                        "1.75"
+                    ],
+                    "thunderstormDamageThreat": [
+                        "CONSIDERABLE"
+                    ],
+                    "BLOCKCHANNEL": [
+                        "EAS",
+                        "NWEM",
+                        "CMAS"
+                    ],
+                    "EAS-ORG": [
+                        "WXR"
+                    ],
+                    "VTEC": [
+                        "/O.NEW.KBIS.SV.W.0068.240624T0626Z-240624T0700Z/"
+                    ],
+                    "eventEndingTime": [
+                        "2024-06-24T07:00:00+00:00"
+                    ]
+                },
+                "replacedBy": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9762a09e13f6ac7bcf6aaa3cf057af678149ebc8.001.1",
+                "replacedAt": "2024-06-24T01:56:00-05:00"
+            }
+        },
+        {
+            "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.49e163b368828a02d35912ae1da170bb67988b70.001.1",
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -105.22,
+                            47.99
+                        ],
+                        [
+                            -105.41,
+                            48.050000000000004
+                        ],
+                        [
+                            -105.42,
+                            48.18000000000001
+                        ],
+                        [
+                            -105.23,
+                            48.31000000000001
+                        ],
+                        [
+                            -104.63000000000001,
+                            48.46000000000001
+                        ],
+                        [
+                            -104.63000000000001,
+                            48.39000000000001
+                        ],
+                        [
+                            -104.59,
+                            48.39000000000001
+                        ],
+                        [
+                            -104.4599999,
+                            47.940000000000005
+                        ],
+                        [
+                            -105.22,
+                            47.99
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.49e163b368828a02d35912ae1da170bb67988b70.001.1",
+                "@type": "wx:Alert",
+                "id": "urn:oid:2.49.0.1.840.0.49e163b368828a02d35912ae1da170bb67988b70.001.1",
+                "areaDesc": "McCone, MT; Richland, MT; Roosevelt, MT",
+                "geocode": {
+                    "SAME": [
+                        "030055",
+                        "030083",
+                        "030085"
+                    ],
+                    "UGC": [
+                        "MTC055",
+                        "MTC083",
+                        "MTC085"
+                    ]
+                },
+                "affectedZones": [
+                    "https://api.weather.gov/zones/county/MTC055",
+                    "https://api.weather.gov/zones/county/MTC083",
+                    "https://api.weather.gov/zones/county/MTC085"
+                ],
+                "references": [],
+                "sent": "2024-06-24T00:26:00-06:00",
+                "effective": "2024-06-24T00:26:00-06:00",
+                "onset": "2024-06-24T00:26:00-06:00",
+                "expires": "2024-06-24T01:15:00-06:00",
+                "ends": "2024-06-24T01:15:00-06:00",
+                "status": "Actual",
+                "messageType": "Alert",
+                "category": "Met",
+                "severity": "Severe",
+                "certainty": "Observed",
+                "urgency": "Immediate",
+                "event": "Severe Thunderstorm Warning",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "senderName": "NWS Glasgow MT",
+                "headline": "Severe Thunderstorm Warning issued June 24 at 12:26AM MDT until June 24 at 1:15AM MDT by NWS Glasgow MT",
+                "description": "SVRGGW\n\nThe National Weather Service in Glasgow has issued a\n\n* Severe Thunderstorm Warning for...\nCentral Roosevelt County in northeastern Montana...\nNortheastern McCone County in northeastern Montana...\nNorthwestern Richland County in northeastern Montana...\n\n* Until 115 AM MDT.\n\n* At 1225 AM MDT, a severe thunderstorm was located near Poplar,\nmoving east at 35 mph.\n\nHAZARD...Quarter size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Damage to vehicles is expected.\n\n* Locations impacted include...\nPoplar, Culbertson, Brockton, Sprole, and Fort Kipp.",
+                "instruction": "Prepare immediately for large hail and deadly cloud to ground\nlightning. Seek shelter inside a well-built structure. Stay away from\nwindows.",
+                "response": "Shelter",
+                "parameters": {
+                    "AWIPSidentifier": [
+                        "SVRGGW"
+                    ],
+                    "WMOidentifier": [
+                        "WUUS55 KGGW 240626"
+                    ],
+                    "eventMotionDescription": [
+                        "2024-06-24T06:25:00-00:00...storm...268DEG...32KT...48.11,-105.27"
+                    ],
+                    "windThreat": [
+                        "RADAR INDICATED"
+                    ],
+                    "maxWindGust": [
+                        "Up to 50 MPH"
+                    ],
+                    "hailThreat": [
+                        "OBSERVED"
+                    ],
+                    "maxHailSize": [
+                        "1.00"
+                    ],
+                    "BLOCKCHANNEL": [
+                        "EAS",
+                        "NWEM",
+                        "CMAS"
+                    ],
+                    "EAS-ORG": [
+                        "WXR"
+                    ],
+                    "VTEC": [
+                        "/O.NEW.KGGW.SV.W.0027.240624T0626Z-240624T0715Z/"
+                    ],
+                    "eventEndingTime": [
+                        "2024-06-24T07:15:00+00:00"
+                    ]
+                },
+                "replacedBy": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.803a3a508066283889e928d0e073173ccb8fd7a7.001.1",
+                "replacedAt": "2024-06-24T00:36:00-06:00"
+            }
+        },
+        {
+            "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5f08f061120aee2eda1e7c471b517781d422599d.001.1",
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -76.1,
+                            36.7
+                        ],
+                        [
+                            -76.58999999999999,
+                            36.650000000000006
+                        ],
+                        [
+                            -76.41999999999999,
+                            36.89000000000001
+                        ],
+                        [
+                            -76.15999999999998,
+                            36.97999990000001
+                        ],
+                        [
+                            -76.08999999999999,
+                            36.95000000000001
+                        ],
+                        [
+                            -75.95999989999999,
+                            36.97000000000001
+                        ],
+                        [
+                            -75.94999999999999,
+                            36.88000000000001
+                        ],
+                        [
+                            -76.1,
+                            36.7
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5f08f061120aee2eda1e7c471b517781d422599d.001.1",
+                "@type": "wx:Alert",
+                "id": "urn:oid:2.49.0.1.840.0.5f08f061120aee2eda1e7c471b517781d422599d.001.1",
+                "areaDesc": "Norfolk/Portsmouth; Suffolk; Chesapeake; Virginia Beach",
+                "geocode": {
+                    "SAME": [
+                        "051710",
+                        "051740",
+                        "051800",
+                        "051550",
+                        "051810"
+                    ],
+                    "UGC": [
+                        "VAZ095",
+                        "VAZ096",
+                        "VAZ097",
+                        "VAZ098"
+                    ]
+                },
+                "affectedZones": [
+                    "https://api.weather.gov/zones/forecast/VAZ095",
+                    "https://api.weather.gov/zones/forecast/VAZ096",
+                    "https://api.weather.gov/zones/forecast/VAZ097",
+                    "https://api.weather.gov/zones/forecast/VAZ098"
+                ],
+                "references": [],
+                "sent": "2024-06-24T02:23:00-04:00",
+                "effective": "2024-06-24T02:23:00-04:00",
+                "onset": "2024-06-24T02:23:00-04:00",
+                "expires": "2024-06-24T03:15:00-04:00",
+                "ends": null,
+                "status": "Actual",
+                "messageType": "Alert",
+                "category": "Met",
+                "severity": "Moderate",
+                "certainty": "Observed",
+                "urgency": "Expected",
+                "event": "Special Weather Statement",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "senderName": "NWS Wakefield VA",
+                "headline": "Special Weather Statement issued June 24 at 2:23AM EDT by NWS Wakefield VA",
+                "description": "At 223 AM EDT, Doppler radar was tracking strong thunderstorms along\na line extending from Portsmouth to near Downtown Suffolk. Movement\nwas east at 35 mph.\n\nHAZARD...Wind gusts up to 40 mph.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects.\n\nStrong thunderstorms will be near...\nVirginia Beach, Deep Creek, Downtown Norfolk, Old Dominion\nUniversity, Downtown Portsmouth, Norfolk State University,\nNorfolk, Chesapeake, Portsmouth, and Ghent around 230 AM EDT.\nRegent University and Virginia Wesleyan University around 235 AM\nEDT.\nKempsville around 240 AM EDT.\n\nOther locations impacted by these storms include South Norfolk,\nPortlock, Mount Pleasant, Princess Anne Plaza, Herberts Corner,\nOceana NAS, Greenbrier, Bayside, Oceana, and Wards Corner.",
+                "instruction": "If outdoors, consider seeking shelter inside a building.",
+                "response": "Execute",
+                "parameters": {
+                    "AWIPSidentifier": [
+                        "SPSAKQ"
+                    ],
+                    "WMOidentifier": [
+                        "WWUS81 KAKQ 240623"
+                    ],
+                    "NWSheadline": [
+                        "STRONG THUNDERSTORMS WILL IMPACT ...THE CITY OF NORFOLK...THE CENTRAL CITY OF CHESAPEAKE...THE CITY OF PORTSMOUTH...THE EAST CENTRAL CITY OF SUFFOLK AND THE NORTHWESTERN CITY OF VIRGINIA BEACH THROUGH 315 AM EDT"
+                    ],
+                    "eventMotionDescription": [
+                        "2024-06-24T06:23:00-00:00...storm...247DEG...31KT...36.84,-76.36 36.7,-76.49"
+                    ],
+                    "maxWindGust": [
+                        "40 MPH"
+                    ],
+                    "maxHailSize": [
+                        "0.00"
+                    ],
+                    "BLOCKCHANNEL": [
+                        "EAS",
+                        "NWEM",
+                        "CMAS"
+                    ],
+                    "EAS-ORG": [
+                        "WXR"
+                    ]
+                }
+            }
+        },
+        {
+            "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.377a1da9e42eb615130c3e62df6349014ef7f47c.001.1",
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -101.04,
+                            48.63
+                        ],
+                        [
+                            -101.06,
+                            48.63
+                        ],
+                        [
+                            -101.06,
+                            48.54
+                        ],
+                        [
+                            -101.47,
+                            48.55
+                        ],
+                        [
+                            -102.24,
+                            48.69
+                        ],
+                        [
+                            -102.05,
+                            49
+                        ],
+                        [
+                            -100.98,
+                            49
+                        ],
+                        [
+                            -101.04,
+                            48.63
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.377a1da9e42eb615130c3e62df6349014ef7f47c.001.1",
+                "@type": "wx:Alert",
+                "id": "urn:oid:2.49.0.1.840.0.377a1da9e42eb615130c3e62df6349014ef7f47c.001.1",
+                "areaDesc": "Bottineau, ND; Burke, ND; Renville, ND; Ward, ND",
+                "geocode": {
+                    "SAME": [
+                        "038009",
+                        "038013",
+                        "038075",
+                        "038101"
+                    ],
+                    "UGC": [
+                        "NDC009",
+                        "NDC013",
+                        "NDC075",
+                        "NDC101"
+                    ]
+                },
+                "affectedZones": [
+                    "https://api.weather.gov/zones/county/NDC009",
+                    "https://api.weather.gov/zones/county/NDC013",
+                    "https://api.weather.gov/zones/county/NDC075",
+                    "https://api.weather.gov/zones/county/NDC101"
+                ],
+                "references": [],
+                "sent": "2024-06-24T01:08:00-05:00",
+                "effective": "2024-06-24T01:08:00-05:00",
+                "onset": "2024-06-24T01:08:00-05:00",
+                "expires": "2024-06-24T02:15:00-05:00",
+                "ends": "2024-06-24T02:15:00-05:00",
+                "status": "Actual",
+                "messageType": "Alert",
+                "category": "Met",
+                "severity": "Severe",
+                "certainty": "Observed",
+                "urgency": "Immediate",
+                "event": "Severe Thunderstorm Warning",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "senderName": "NWS Bismarck ND",
+                "headline": "Severe Thunderstorm Warning issued June 24 at 1:08AM CDT until June 24 at 2:15AM CDT by NWS Bismarck ND",
+                "description": "SVRBIS\n\nThe National Weather Service in Bismarck has issued a\n\n* Severe Thunderstorm Warning for...\nNorthwestern Ward County in north central North Dakota...\nWestern Bottineau County in north central North Dakota...\nRenville County in north central North Dakota...\nNortheastern Burke County in northwestern North Dakota...\n\n* Until 215 AM CDT.\n\n* At 108 AM CDT, a severe thunderstorm was located 11 miles west of\nSherwood, or 49 miles northeast of Stanley, moving southeast at 45\nmph.\n\nHAZARD...70 mph wind gusts and ping pong ball size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...People and animals outdoors will be injured. Expect hail\ndamage to roofs, siding, windows, and vehicles. Expect\nconsiderable tree damage. Wind damage is also likely to\nmobile homes, roofs, and outbuildings.\n\n* Locations impacted include...\nKenmare, Mohall, Westhope, Lansford, Sherwood, Greene, Maxbass,\nAntler, Tolley, Norma, Loraine, Grano, Niobe, and Eckman.",
+                "instruction": "For your protection move to an interior room on the lowest floor of a\nbuilding.",
+                "response": "Shelter",
+                "parameters": {
+                    "AWIPSidentifier": [
+                        "SVRBIS"
+                    ],
+                    "WMOidentifier": [
+                        "WUUS53 KBIS 240608"
+                    ],
+                    "eventMotionDescription": [
+                        "2024-06-24T06:08:00-00:00...storm...295DEG...37KT...48.96,-101.88"
+                    ],
+                    "windThreat": [
+                        "RADAR INDICATED"
+                    ],
+                    "maxWindGust": [
+                        "70 MPH"
+                    ],
+                    "hailThreat": [
+                        "RADAR INDICATED"
+                    ],
+                    "maxHailSize": [
+                        "1.50"
+                    ],
+                    "thunderstormDamageThreat": [
+                        "CONSIDERABLE"
+                    ],
+                    "BLOCKCHANNEL": [
+                        "EAS",
+                        "NWEM",
+                        "CMAS"
+                    ],
+                    "EAS-ORG": [
+                        "WXR"
+                    ],
+                    "VTEC": [
+                        "/O.NEW.KBIS.SV.W.0067.240624T0608Z-240624T0715Z/"
+                    ],
+                    "eventEndingTime": [
+                        "2024-06-24T07:15:00+00:00"
+                    ]
+                },
+                "replacedBy": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2818de046a42ef1ac3b3c53840d00dcfa95b379d.002.1",
+                "replacedAt": "2024-06-24T02:01:00-05:00"
+            }
+        },
+        {
+            "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f66c1d7b1c831f3ed6762256c9f33bd6f52e746e.001.1",
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -76.4599999,
+                            37.01
+                        ],
+                        [
+                            -76.47,
+                            37.03
+                        ],
+                        [
+                            -76.45,
+                            37.050000000000004
+                        ],
+                        [
+                            -76.4,
+                            37.02
+                        ],
+                        [
+                            -76.3199999,
+                            37.09
+                        ],
+                        [
+                            -76.37,
+                            37.13
+                        ],
+                        [
+                            -76.43,
+                            37.120000000000005
+                        ],
+                        [
+                            -76.39,
+                            37.28
+                        ],
+                        [
+                            -75.98,
+                            37.300000000000004
+                        ],
+                        [
+                            -75.95,
+                            37.120000000000005
+                        ],
+                        [
+                            -75.97,
+                            37.1
+                        ],
+                        [
+                            -75.92999999999999,
+                            37.09
+                        ],
+                        [
+                            -76.00999999999999,
+                            36.93000000000001
+                        ],
+                        [
+                            -76.08999999999999,
+                            36.90999990000001
+                        ],
+                        [
+                            -76.05999999999999,
+                            36.83000000000001
+                        ],
+                        [
+                            -76.13999999999999,
+                            36.920000000000016
+                        ],
+                        [
+                            -76.16999999999999,
+                            36.890000000000015
+                        ],
+                        [
+                            -76.27999999999999,
+                            36.920000000000016
+                        ],
+                        [
+                            -76.44999999999999,
+                            36.88000000000002
+                        ],
+                        [
+                            -76.53999999999999,
+                            36.95000000000002
+                        ],
+                        [
+                            -76.4599999,
+                            37.01
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f66c1d7b1c831f3ed6762256c9f33bd6f52e746e.001.1",
+                "@type": "wx:Alert",
+                "id": "urn:oid:2.49.0.1.840.0.f66c1d7b1c831f3ed6762256c9f33bd6f52e746e.001.1",
+                "areaDesc": "Chesapeake Bay from New Point Comfort to Little Creek VA; Chesapeake Bay from Little Creek VA to Cape Henry VA including the Chesapeake Bay Bridge Tunnel; James River from James River Bridge to Hampton Roads Bridge-Tunnel",
+                "geocode": {
+                    "SAME": [
+                        "073632",
+                        "073634",
+                        "073638"
+                    ],
+                    "UGC": [
+                        "ANZ632",
+                        "ANZ634",
+                        "ANZ638"
+                    ]
+                },
+                "affectedZones": [
+                    "https://api.weather.gov/zones/forecast/ANZ632",
+                    "https://api.weather.gov/zones/forecast/ANZ634",
+                    "https://api.weather.gov/zones/forecast/ANZ638"
+                ],
+                "references": [],
+                "sent": "2024-06-24T02:04:00-04:00",
+                "effective": "2024-06-24T02:04:00-04:00",
+                "onset": "2024-06-24T02:04:00-04:00",
+                "expires": "2024-06-24T03:15:00-04:00",
+                "ends": "2024-06-24T03:15:00-04:00",
+                "status": "Actual",
+                "messageType": "Alert",
+                "category": "Met",
+                "severity": "Severe",
+                "certainty": "Likely",
+                "urgency": "Immediate",
+                "event": "Special Marine Warning",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "senderName": "NWS Wakefield VA",
+                "headline": "Special Marine Warning issued June 24 at 2:04AM EDT until June 24 at 3:15AM EDT by NWS Wakefield VA",
+                "description": "SMWAKQ\n\nThe National Weather Service in Wakefield has issued a\n\n* Special Marine Warning for...\nChesapeake Bay from Little Creek VA to Cape Henry VA including the\nChesapeake Bay Bridge Tunnel...\nChesapeake Bay from New Point Comfort to Little Creek VA...\nJames River from James River Bridge to Hampton Roads\nBridge-Tunnel...\n\n* Until 315 AM EDT.\n\n* At 203 AM EDT, thunderstorms were located along a line extending\nfrom Poquoson to 12 nm south of Burwell Bay, moving east at 20\nknots.\n\nHAZARD...Wind gusts 34 knots or greater.\n\nSOURCE...Radar.\n\nIMPACT...Small craft could be damaged in briefly higher winds and\nsuddenly higher waves.\n\n* Locations impacted include...\nChesapeake Bay Bridge Tunnel, Thimble Shoals, Tue Marshes Light,\nHampton Flats, The Hump, Willoughby Bay, Sewells Point, Cabbage\nPatch, Cape Charles Harbor, 1st Island Bay Bridge, Latimer Shoal,\nPlantation Light, Poquoson, Dominion Pier, Kiptopeke Concrete\nShips, Hampton Roads Bridge Tunnel, Lynnhaven, York Spit Reef, Buoy\n36a, and Hampton River Inlet.",
+                "instruction": "Move to safe harbor until hazardous weather passes. These\nthunderstorms are weakening but still are capable of producing\nstrong wind gusts.",
+                "response": "Avoid",
+                "parameters": {
+                    "AWIPSidentifier": [
+                        "SMWAKQ"
+                    ],
+                    "WMOidentifier": [
+                        "WHUS51 KAKQ 240604"
+                    ],
+                    "eventMotionDescription": [
+                        "2024-06-24T06:03:00-00:00...storm...264DEG...22KT...37.13,-76.39 36.84,-76.69"
+                    ],
+                    "BLOCKCHANNEL": [
+                        "EAS",
+                        "NWEM",
+                        "CMAS"
+                    ],
+                    "EAS-ORG": [
+                        "WXR"
+                    ],
+                    "VTEC": [
+                        "/O.NEW.KAKQ.MA.W.0079.240624T0604Z-240624T0715Z/"
+                    ],
+                    "eventEndingTime": [
+                        "2024-06-24T07:15:00+00:00"
+                    ]
+                },
+                "replacedBy": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bb164a3cb2a4fdf50bff15d2466e4dd04e42eed3.001.1",
+                "replacedAt": "2024-06-24T02:44:00-04:00"
+            }
+        },
+        {
+            "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7461340e0ed47c96bb4dce80159cd23e140960a5.001.1",
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -105.62,
+                            46.83
+                        ],
+                        [
+                            -105.62,
+                            46.75
+                        ],
+                        [
+                            -105.5699999,
+                            46.74
+                        ],
+                        [
+                            -105.58,
+                            46.6599999
+                        ],
+                        [
+                            -105.5,
+                            46.6599999
+                        ],
+                        [
+                            -105.49,
+                            46.6
+                        ],
+                        [
+                            -105.44999999999999,
+                            46.6
+                        ],
+                        [
+                            -105.43999999999998,
+                            46.57
+                        ],
+                        [
+                            -105.23999999999998,
+                            46.57
+                        ],
+                        [
+                            -105.23999999999998,
+                            46.54
+                        ],
+                        [
+                            -104.98999999999998,
+                            46.54
+                        ],
+                        [
+                            -104.97999999999998,
+                            46.57
+                        ],
+                        [
+                            -104.85999999999997,
+                            46.57
+                        ],
+                        [
+                            -104.85999999999997,
+                            46.61
+                        ],
+                        [
+                            -104.81999989999997,
+                            46.61
+                        ],
+                        [
+                            -104.80999999999997,
+                            46.46
+                        ],
+                        [
+                            -105.75999999999998,
+                            46.12
+                        ],
+                        [
+                            -105.78999999999998,
+                            46.479999899999996
+                        ],
+                        [
+                            -106.07999999999998,
+                            46.85999999999999
+                        ],
+                        [
+                            -105.82999999999998,
+                            46.85999999999999
+                        ],
+                        [
+                            -105.62,
+                            46.83
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7461340e0ed47c96bb4dce80159cd23e140960a5.001.1",
+                "@type": "wx:Alert",
+                "id": "urn:oid:2.49.0.1.840.0.7461340e0ed47c96bb4dce80159cd23e140960a5.001.1",
+                "areaDesc": "Custer; Fallon",
+                "geocode": {
+                    "SAME": [
+                        "030017",
+                        "030025"
+                    ],
+                    "UGC": [
+                        "MTZ032",
+                        "MTZ033"
+                    ]
+                },
+                "affectedZones": [
+                    "https://api.weather.gov/zones/forecast/MTZ032",
+                    "https://api.weather.gov/zones/forecast/MTZ033"
+                ],
+                "references": [],
+                "sent": "2024-06-23T23:58:00-06:00",
+                "effective": "2024-06-23T23:58:00-06:00",
+                "onset": "2024-06-23T23:58:00-06:00",
+                "expires": "2024-06-24T00:30:00-06:00",
+                "ends": null,
+                "status": "Actual",
+                "messageType": "Alert",
+                "category": "Met",
+                "severity": "Moderate",
+                "certainty": "Observed",
+                "urgency": "Expected",
+                "event": "Special Weather Statement",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "senderName": "NWS Billings MT",
+                "headline": "Special Weather Statement issued June 23 at 11:58PM MDT by NWS Billings MT",
+                "description": "At 1156 PM MDT, Doppler radar was tracking strong thunderstorms along\na line extending from 18 miles east of Hillside to 9 miles northeast\nof Miles City to 24 miles north of Volborg. Movement was northeast at\n50 mph.\n\nHAZARD...Wind gusts up to 50 mph and pea size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects. Minor hail damage to vegetation is\npossible.\n\nLocations impacted include...\nLocate, Twelve Mile Dam, Strawberry Hill Recreation Area, and\nMatthews Recreation Area.",
+                "instruction": "If outdoors, consider seeking shelter inside a building.",
+                "response": "Execute",
+                "parameters": {
+                    "AWIPSidentifier": [
+                        "SPSBYZ"
+                    ],
+                    "WMOidentifier": [
+                        "WWUS85 KBYZ 240558"
+                    ],
+                    "NWSheadline": [
+                        "STRONG THUNDERSTORMS WILL IMPACT NORTHWESTERN FALLON AND NORTHERN CUSTER COUNTIES THROUGH 1230 AM MDT"
+                    ],
+                    "eventMotionDescription": [
+                        "2024-06-24T05:56:00-00:00...storm...236DEG...71KT...46.9,-106.01 46.52,-105.73 46.2,-105.71"
+                    ],
+                    "maxWindGust": [
+                        "50 MPH"
+                    ],
+                    "maxHailSize": [
+                        "0.25"
+                    ],
+                    "BLOCKCHANNEL": [
+                        "EAS",
+                        "NWEM",
+                        "CMAS"
+                    ],
+                    "EAS-ORG": [
+                        "WXR"
+                    ]
+                }
+            }
+        },
+        {
+            "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a0a6bad552184d67137b91966b244a6159881a7c.001.1",
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -104.68,
+                            48.01
+                        ],
+                        [
+                            -105.86000000000001,
+                            48.019999999999996
+                        ],
+                        [
+                            -105.91000000000001,
+                            48.22
+                        ],
+                        [
+                            -105.00000000000001,
+                            48.56
+                        ],
+                        [
+                            -104.92000000000002,
+                            48.56
+                        ],
+                        [
+                            -104.68,
+                            48.01
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a0a6bad552184d67137b91966b244a6159881a7c.001.1",
+                "@type": "wx:Alert",
+                "id": "urn:oid:2.49.0.1.840.0.a0a6bad552184d67137b91966b244a6159881a7c.001.1",
+                "areaDesc": "McCone, MT; Richland, MT; Roosevelt, MT; Valley, MT",
+                "geocode": {
+                    "SAME": [
+                        "030055",
+                        "030083",
+                        "030085",
+                        "030105"
+                    ],
+                    "UGC": [
+                        "MTC055",
+                        "MTC083",
+                        "MTC085",
+                        "MTC105"
+                    ]
+                },
+                "affectedZones": [
+                    "https://api.weather.gov/zones/county/MTC055",
+                    "https://api.weather.gov/zones/county/MTC083",
+                    "https://api.weather.gov/zones/county/MTC085",
+                    "https://api.weather.gov/zones/county/MTC105"
+                ],
+                "references": [],
+                "sent": "2024-06-23T23:57:00-06:00",
+                "effective": "2024-06-23T23:57:00-06:00",
+                "onset": "2024-06-23T23:57:00-06:00",
+                "expires": "2024-06-24T00:30:00-06:00",
+                "ends": "2024-06-24T00:30:00-06:00",
+                "status": "Actual",
+                "messageType": "Alert",
+                "category": "Met",
+                "severity": "Severe",
+                "certainty": "Observed",
+                "urgency": "Immediate",
+                "event": "Severe Thunderstorm Warning",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "senderName": "NWS Glasgow MT",
+                "headline": "Severe Thunderstorm Warning issued June 23 at 11:57PM MDT until June 24 at 12:30AM MDT by NWS Glasgow MT",
+                "description": "SVRGGW\n\nThe National Weather Service in Glasgow has issued a\n\n* Severe Thunderstorm Warning for...\nWestern Roosevelt County in northeastern Montana...\nEast central Valley County in northeastern Montana...\nNortheastern McCone County in northeastern Montana...\nNorthwestern Richland County in northeastern Montana...\n\n* Until 1230 AM MDT.\n\n* At 1157 PM MDT, a severe thunderstorm was located near Wolf Point,\nmoving east at 45 mph.\n\nHAZARD...60 mph wind gusts and quarter size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Hail damage to vehicles is expected. Expect wind damage\nto roofs, siding, and trees.\n\n* Locations impacted include...\nWolf Point, Poplar, Brockton, and Sprole.",
+                "instruction": "For your protection move to an interior room on the lowest floor of a\nbuilding.",
+                "response": "Shelter",
+                "parameters": {
+                    "AWIPSidentifier": [
+                        "SVRGGW"
+                    ],
+                    "WMOidentifier": [
+                        "WUUS55 KGGW 240557"
+                    ],
+                    "eventMotionDescription": [
+                        "2024-06-24T05:57:00-00:00...storm...258DEG...41KT...48.13,-105.76"
+                    ],
+                    "windThreat": [
+                        "RADAR INDICATED"
+                    ],
+                    "maxWindGust": [
+                        "60 MPH"
+                    ],
+                    "hailThreat": [
+                        "RADAR INDICATED"
+                    ],
+                    "maxHailSize": [
+                        "1.00"
+                    ],
+                    "BLOCKCHANNEL": [
+                        "EAS",
+                        "NWEM",
+                        "CMAS"
+                    ],
+                    "EAS-ORG": [
+                        "WXR"
+                    ],
+                    "VTEC": [
+                        "/O.NEW.KGGW.SV.W.0026.240624T0557Z-240624T0630Z/"
+                    ],
+                    "eventEndingTime": [
+                        "2024-06-24T06:30:00+00:00"
+                    ]
+                },
+                "replacedBy": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ff916d133d054fbbc8df87eccd2bc33c3cd59e36.002.1",
+                "replacedAt": "2024-06-24T00:17:00-06:00"
+            }
+        },
+        {
+            "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e432822f8a8cbce604777bcaa1c84f42c5d1062d.001.1",
+            "type": "Feature",
+            "geometry": null,
+            "properties": {
+                "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e432822f8a8cbce604777bcaa1c84f42c5d1062d.001.1",
+                "@type": "wx:Alert",
+                "id": "urn:oid:2.49.0.1.840.0.e432822f8a8cbce604777bcaa1c84f42c5d1062d.001.1",
+                "areaDesc": "Tidal Potomac from Key Bridge to Indian Head MD; Tidal Potomac from Indian Head to Cobb Island MD",
+                "geocode": {
+                    "SAME": [
+                        "073535",
+                        "073536"
+                    ],
+                    "UGC": [
+                        "ANZ535",
+                        "ANZ536"
+                    ]
+                },
+                "affectedZones": [
+                    "https://api.weather.gov/zones/forecast/ANZ535",
+                    "https://api.weather.gov/zones/forecast/ANZ536"
+                ],
+                "references": [],
+                "sent": "2024-06-24T01:52:00-04:00",
+                "effective": "2024-06-24T01:52:00-04:00",
+                "onset": "2024-06-24T01:52:00-04:00",
+                "expires": "2024-06-24T05:00:00-04:00",
+                "ends": null,
+                "status": "Actual",
+                "messageType": "Alert",
+                "category": "Met",
+                "severity": "Minor",
+                "certainty": "Observed",
+                "urgency": "Expected",
+                "event": "Marine Weather Statement",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "senderName": "NWS Baltimore MD/Washington DC",
+                "headline": "Marine Weather Statement issued June 24 at 1:52AM EDT by NWS Baltimore MD/Washington DC",
+                "description": "Southwesterly winds may occasionally gust to around 20 knots on\nportions of the tidal Potomac River from Key Bridge to Cobb Island\nthrough 5 AM. Inexperienced mariners, especially those in small craft,\nshould exercise caution and be prepared for locally higher winds\nand waves.",
+                "instruction": null,
+                "response": "Monitor",
+                "parameters": {
+                    "AWIPSidentifier": [
+                        "MWSLWX"
+                    ],
+                    "WMOidentifier": [
+                        "FZUS71 KLWX 240552"
+                    ],
+                    "NWSheadline": [
+                        "LOCALLY GUSTY WINDS"
+                    ],
+                    "BLOCKCHANNEL": [
+                        "EAS",
+                        "NWEM",
+                        "CMAS"
+                    ]
+                }
+            }
+        },
+        {
+            "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.20a4e342d3abcac3d60207aeee4ce0dc793f8274.001.1",
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -105.9599999,
+                            48.01
+                        ],
+                        [
+                            -105.97,
+                            48.269999999999996
+                        ],
+                        [
+                            -104.58,
+                            48.69
+                        ],
+                        [
+                            -104.42,
+                            48.019999999999996
+                        ],
+                        [
+                            -105.9599999,
+                            48.01
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.20a4e342d3abcac3d60207aeee4ce0dc793f8274.001.1",
+                "@type": "wx:Alert",
+                "id": "urn:oid:2.49.0.1.840.0.20a4e342d3abcac3d60207aeee4ce0dc793f8274.001.1",
+                "areaDesc": "Central and Southern Valley; Daniels; Sheridan; Western Roosevelt; McCone; Richland; Eastern Roosevelt",
+                "geocode": {
+                    "SAME": [
+                        "030105",
+                        "030019",
+                        "030091",
+                        "030085",
+                        "030055",
+                        "030083"
+                    ],
+                    "UGC": [
+                        "MTZ017",
+                        "MTZ018",
+                        "MTZ019",
+                        "MTZ020",
+                        "MTZ023",
+                        "MTZ024",
+                        "MTZ062"
+                    ]
+                },
+                "affectedZones": [
+                    "https://api.weather.gov/zones/forecast/MTZ017",
+                    "https://api.weather.gov/zones/forecast/MTZ018",
+                    "https://api.weather.gov/zones/forecast/MTZ019",
+                    "https://api.weather.gov/zones/forecast/MTZ020",
+                    "https://api.weather.gov/zones/forecast/MTZ023",
+                    "https://api.weather.gov/zones/forecast/MTZ024",
+                    "https://api.weather.gov/zones/forecast/MTZ062"
+                ],
+                "references": [],
+                "sent": "2024-06-23T23:50:00-06:00",
+                "effective": "2024-06-23T23:50:00-06:00",
+                "onset": "2024-06-23T23:50:00-06:00",
+                "expires": "2024-06-24T00:45:00-06:00",
+                "ends": null,
+                "status": "Actual",
+                "messageType": "Alert",
+                "category": "Met",
+                "severity": "Moderate",
+                "certainty": "Observed",
+                "urgency": "Expected",
+                "event": "Special Weather Statement",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "senderName": "NWS Glasgow MT",
+                "headline": "Special Weather Statement issued June 23 at 11:50PM MDT by NWS Glasgow MT",
+                "description": "At 1150 PM MDT, Doppler radar was tracking a strong thunderstorm 7\nmiles northwest of Wolf Point, moving east at 50 mph.\n\nHAZARD...Wind gusts of 50 to 55 mph and nickel size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects. Minor damage to outdoor objects is\npossible.\n\nLocations impacted include...\nWolf Point, Poplar, Culbertson, Brockton, Froid, Sprole, Oswego, Fort\nKipp, and Homestead.",
+                "instruction": "If outdoors, consider seeking shelter inside a building.",
+                "response": "Execute",
+                "parameters": {
+                    "AWIPSidentifier": [
+                        "SPSGGW"
+                    ],
+                    "WMOidentifier": [
+                        "WWUS85 KGGW 240550"
+                    ],
+                    "NWSheadline": [
+                        "A strong thunderstorm will impact portions of southeastern Daniels, Roosevelt, southeastern Valley, southwestern Sheridan, northeastern McCone and northwestern Richland Counties through 1245 AM MDT"
+                    ],
+                    "eventMotionDescription": [
+                        "2024-06-24T05:50:00-00:00...storm...258DEG...42KT...48.15,-105.78"
+                    ],
+                    "maxWindGust": [
+                        "55 MPH"
+                    ],
+                    "maxHailSize": [
+                        "0.88"
+                    ],
+                    "BLOCKCHANNEL": [
+                        "EAS",
+                        "NWEM",
+                        "CMAS"
+                    ],
+                    "EAS-ORG": [
+                        "WXR"
+                    ]
+                }
+            }
+        },
+        {
+            "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bc4547f2f359212a175f295c68778f6e154a4c32.001.1",
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -102.03,
+                            49
+                        ],
+                        [
+                            -102.02,
+                            48.81
+                        ],
+                        [
+                            -102.14999999999999,
+                            48.81
+                        ],
+                        [
+                            -102.14999999999999,
+                            48.72
+                        ],
+                        [
+                            -102.22999999999999,
+                            48.72
+                        ],
+                        [
+                            -102.22999999999999,
+                            48.69
+                        ],
+                        [
+                            -102.29999999999998,
+                            48.669999999999995
+                        ],
+                        [
+                            -103.11999999999998,
+                            48.979999899999996
+                        ],
+                        [
+                            -103.08999999999997,
+                            48.99999999999999
+                        ],
+                        [
+                            -102.03,
+                            49
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bc4547f2f359212a175f295c68778f6e154a4c32.001.1",
+                "@type": "wx:Alert",
+                "id": "urn:oid:2.49.0.1.840.0.bc4547f2f359212a175f295c68778f6e154a4c32.001.1",
+                "areaDesc": "Burke, ND; Divide, ND",
+                "geocode": {
+                    "SAME": [
+                        "038013",
+                        "038023"
+                    ],
+                    "UGC": [
+                        "NDC013",
+                        "NDC023"
+                    ]
+                },
+                "affectedZones": [
+                    "https://api.weather.gov/zones/county/NDC013",
+                    "https://api.weather.gov/zones/county/NDC023"
+                ],
+                "references": [],
+                "sent": "2024-06-24T00:38:00-05:00",
+                "effective": "2024-06-24T00:38:00-05:00",
+                "onset": "2024-06-24T00:38:00-05:00",
+                "expires": "2024-06-24T01:30:00-05:00",
+                "ends": "2024-06-24T01:30:00-05:00",
+                "status": "Actual",
+                "messageType": "Alert",
+                "category": "Met",
+                "severity": "Severe",
+                "certainty": "Observed",
+                "urgency": "Immediate",
+                "event": "Severe Thunderstorm Warning",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "senderName": "NWS Bismarck ND",
+                "headline": "Severe Thunderstorm Warning issued June 24 at 12:38AM CDT until June 24 at 1:30AM CDT by NWS Bismarck ND",
+                "description": "SVRBIS\n\nThe National Weather Service in Bismarck has issued a\n\n* Severe Thunderstorm Warning for...\nNorthern Burke County in northwestern North Dakota...\nNortheastern Divide County in northwestern North Dakota...\n\n* Until 130 AM CDT.\n\n* At 1237 AM CDT, a severe thunderstorm was located 7 miles north of\nColumbus, or 23 miles east of Crosby, moving southeast at 40 mph.\n\nHAZARD...Golf ball size hail and 70 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...People and animals outdoors will be injured. Expect hail\ndamage to roofs, siding, windows, and vehicles. Expect\nconsiderable tree damage. Wind damage is also likely to\nmobile homes, roofs, and outbuildings.\n\n* Locations impacted include...\nBowbells, Lignite, Columbus, Portal, Flaxton, Coteau, Larson, and\nNorthgate.",
+                "instruction": "For your protection move to an interior room on the lowest floor of a\nbuilding.",
+                "response": "Shelter",
+                "parameters": {
+                    "AWIPSidentifier": [
+                        "SVRBIS"
+                    ],
+                    "WMOidentifier": [
+                        "WUUS53 KBIS 240538"
+                    ],
+                    "eventMotionDescription": [
+                        "2024-06-24T05:37:00-00:00...storm...299DEG...36KT...49.01,-102.79"
+                    ],
+                    "windThreat": [
+                        "RADAR INDICATED"
+                    ],
+                    "maxWindGust": [
+                        "70 MPH"
+                    ],
+                    "hailThreat": [
+                        "RADAR INDICATED"
+                    ],
+                    "maxHailSize": [
+                        "1.75"
+                    ],
+                    "thunderstormDamageThreat": [
+                        "CONSIDERABLE"
+                    ],
+                    "BLOCKCHANNEL": [
+                        "EAS",
+                        "NWEM",
+                        "CMAS"
+                    ],
+                    "EAS-ORG": [
+                        "WXR"
+                    ],
+                    "VTEC": [
+                        "/O.NEW.KBIS.SV.W.0066.240624T0538Z-240624T0630Z/"
+                    ],
+                    "eventEndingTime": [
+                        "2024-06-24T06:30:00+00:00"
+                    ]
+                },
+                "replacedBy": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.16c1648bae3f5ddf3531b7ccabea84b510aefac4.001.1",
+                "replacedAt": "2024-06-24T01:18:00-05:00"
+            }
+        },
+        {
+            "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8b5584d8a2be4217d3485e66d40961ff1bfbf476.001.1",
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -77.28,
+                            36.76
+                        ],
+                        [
+                            -76.9599999,
+                            36.909999899999995
+                        ],
+                        [
+                            -76.83,
+                            37.08
+                        ],
+                        [
+                            -76.64,
+                            37.11
+                        ],
+                        [
+                            -76.61,
+                            37.089999999999996
+                        ],
+                        [
+                            -76.61,
+                            37.06999999999999
+                        ],
+                        [
+                            -76.49,
+                            36.99999999999999
+                        ],
+                        [
+                            -76.44,
+                            36.919999999999995
+                        ],
+                        [
+                            -76.47,
+                            36.909999899999995
+                        ],
+                        [
+                            -76.49,
+                            36.92999999999999
+                        ],
+                        [
+                            -76.5,
+                            36.909999899999995
+                        ],
+                        [
+                            -76.53,
+                            36.909999899999995
+                        ],
+                        [
+                            -76.53,
+                            36.919999999999995
+                        ],
+                        [
+                            -76.65,
+                            36.82999999999999
+                        ],
+                        [
+                            -76.85000000000001,
+                            36.73999999999999
+                        ],
+                        [
+                            -77.28,
+                            36.76
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8b5584d8a2be4217d3485e66d40961ff1bfbf476.001.1",
+                "@type": "wx:Alert",
+                "id": "urn:oid:2.49.0.1.840.0.8b5584d8a2be4217d3485e66d40961ff1bfbf476.001.1",
+                "areaDesc": "Surry; Southampton; Isle of Wight",
+                "geocode": {
+                    "SAME": [
+                        "051181",
+                        "051175",
+                        "051620",
+                        "051093"
+                    ],
+                    "UGC": [
+                        "VAZ089",
+                        "VAZ092",
+                        "VAZ093"
+                    ]
+                },
+                "affectedZones": [
+                    "https://api.weather.gov/zones/forecast/VAZ089",
+                    "https://api.weather.gov/zones/forecast/VAZ092",
+                    "https://api.weather.gov/zones/forecast/VAZ093"
+                ],
+                "references": [],
+                "sent": "2024-06-24T01:29:00-04:00",
+                "effective": "2024-06-24T01:29:00-04:00",
+                "onset": "2024-06-24T01:29:00-04:00",
+                "expires": "2024-06-24T02:15:00-04:00",
+                "ends": null,
+                "status": "Actual",
+                "messageType": "Alert",
+                "category": "Met",
+                "severity": "Moderate",
+                "certainty": "Observed",
+                "urgency": "Expected",
+                "event": "Special Weather Statement",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "senderName": "NWS Wakefield VA",
+                "headline": "Special Weather Statement issued June 24 at 1:29AM EDT by NWS Wakefield VA",
+                "description": "At 128 AM EDT, Doppler radar was tracking strong thunderstorms along\na line extending from near Elberon to Ivor to 7 miles northwest of\nCourtland. Movement was east at 20 mph.\n\nHAZARD...Wind gusts up to 40 mph.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects.\n\nStrong thunderstorms will be near...\nIvor and Zuni around 135 AM EDT.\nSedley around 140 AM EDT.\nSmithfield and Isle Of Wight around 145 AM EDT.\n\nOther locations impacted by these storms include Vicksville,\nRushmere, Pons, Carrollton, Longview, Benns Church, Bethel Church,\nDory, Poolesville, and Walters.",
+                "instruction": "If outdoors, consider seeking shelter inside a building.",
+                "response": "Execute",
+                "parameters": {
+                    "AWIPSidentifier": [
+                        "SPSAKQ"
+                    ],
+                    "WMOidentifier": [
+                        "WWUS81 KAKQ 240529"
+                    ],
+                    "NWSheadline": [
+                        "STRONG THUNDERSTORMS WILL IMPACT ISLE OF WIGHT...NORTHEASTERN SOUTHAMPTON AND SOUTHEASTERN SURRY COUNTIES THROUGH 215 AM EDT"
+                    ],
+                    "eventMotionDescription": [
+                        "2024-06-24T05:28:00-00:00...storm...267DEG...17KT...37.06,-76.79 36.92,-76.87 36.81,-77.12"
+                    ],
+                    "maxWindGust": [
+                        "40 MPH"
+                    ],
+                    "maxHailSize": [
+                        "0.00"
+                    ],
+                    "BLOCKCHANNEL": [
+                        "EAS",
+                        "NWEM",
+                        "CMAS"
+                    ],
+                    "EAS-ORG": [
+                        "WXR"
+                    ]
+                }
+            }
+        },
+        {
+            "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.79dcdb0fcaa5a890a56fd0e0da90cd8fb290f647.001.1",
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -76.54,
+                            37.03
+                        ],
+                        [
+                            -76.56999990000001,
+                            37.050000000000004
+                        ],
+                        [
+                            -76.64000000000001,
+                            37.11000000000001
+                        ],
+                        [
+                            -76.67000000000002,
+                            37.28000000000001
+                        ],
+                        [
+                            -76.45999990000001,
+                            37.30000000000001
+                        ],
+                        [
+                            -76.44000000000001,
+                            37.31000000000001
+                        ],
+                        [
+                            -76.36000000000001,
+                            37.32000000000001
+                        ],
+                        [
+                            -76.33000000000001,
+                            37.21000000000001
+                        ],
+                        [
+                            -76.22000000000001,
+                            37.09000000000001
+                        ],
+                        [
+                            -76.54,
+                            37.03
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.79dcdb0fcaa5a890a56fd0e0da90cd8fb290f647.001.1",
+                "@type": "wx:Alert",
+                "id": "urn:oid:2.49.0.1.840.0.79dcdb0fcaa5a890a56fd0e0da90cd8fb290f647.001.1",
+                "areaDesc": "Gloucester; James City; York; Newport News; Hampton/Poquoson",
+                "geocode": {
+                    "SAME": [
+                        "051073",
+                        "051095",
+                        "051830",
+                        "051199",
+                        "051735",
+                        "051700",
+                        "051650"
+                    ],
+                    "UGC": [
+                        "VAZ084",
+                        "VAZ090",
+                        "VAZ523",
+                        "VAZ524",
+                        "VAZ525"
+                    ]
+                },
+                "affectedZones": [
+                    "https://api.weather.gov/zones/forecast/VAZ084",
+                    "https://api.weather.gov/zones/forecast/VAZ090",
+                    "https://api.weather.gov/zones/forecast/VAZ523",
+                    "https://api.weather.gov/zones/forecast/VAZ524",
+                    "https://api.weather.gov/zones/forecast/VAZ525"
+                ],
+                "references": [],
+                "sent": "2024-06-24T01:27:00-04:00",
+                "effective": "2024-06-24T01:27:00-04:00",
+                "onset": "2024-06-24T01:27:00-04:00",
+                "expires": "2024-06-24T02:15:00-04:00",
+                "ends": null,
+                "status": "Actual",
+                "messageType": "Alert",
+                "category": "Met",
+                "severity": "Moderate",
+                "certainty": "Observed",
+                "urgency": "Expected",
+                "event": "Special Weather Statement",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "senderName": "NWS Wakefield VA",
+                "headline": "Special Weather Statement issued June 24 at 1:27AM EDT by NWS Wakefield VA",
+                "description": "At 126 AM EDT, Doppler radar was tracking a strong thunderstorm over\nFort Eustis, or near Newport News, moving east at 30 mph.\n\nHAZARD...Wind gusts up to 40 mph.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects.\n\nThis strong thunderstorm will be near...\nNewport News, Fort Eustis, Lee Hall, and Denbigh around 130 AM\nEDT.\nPatrick Henry Field around 135 AM EDT.\nSeaford and Tabb around 140 AM EDT.\n\nOther locations impacted by this storm include Fox Hill, Lackey,\nLangley View, Water Country U.S.A., Oriana, Maryus, Dare, Newport\nNews Golf Course, Severn, and Oyster Point.",
+                "instruction": "If outdoors, consider seeking shelter inside a building.",
+                "response": "Execute",
+                "parameters": {
+                    "AWIPSidentifier": [
+                        "SPSAKQ"
+                    ],
+                    "WMOidentifier": [
+                        "WWUS81 KAKQ 240527"
+                    ],
+                    "NWSheadline": [
+                        "A STRONG THUNDERSTORM WILL IMPACT SOUTHEASTERN GLOUCESTER...YORK AND SOUTHEASTERN JAMES CITY COUNTIES...THE CITY OF POQUOSON...THE CITY OF HAMPTON AND THE CITY OF NEWPORT NEWS THROUGH 215 AM EDT"
+                    ],
+                    "eventMotionDescription": [
+                        "2024-06-24T05:26:00-00:00...storm...258DEG...25KT...37.16,-76.62"
+                    ],
+                    "maxWindGust": [
+                        "40 MPH"
+                    ],
+                    "maxHailSize": [
+                        "0.00"
+                    ],
+                    "BLOCKCHANNEL": [
+                        "EAS",
+                        "NWEM",
+                        "CMAS"
+                    ],
+                    "EAS-ORG": [
+                        "WXR"
+                    ]
+                }
+            }
+        },
+        {
+            "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5836c5f44227fc3eaebde8287bd78a9e2c2fa52f.001.1",
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -105.83,
+                            46.83
+                        ],
+                        [
+                            -105.62,
+                            46.83
+                        ],
+                        [
+                            -105.62,
+                            46.75
+                        ],
+                        [
+                            -105.5699999,
+                            46.74
+                        ],
+                        [
+                            -105.58,
+                            46.6599999
+                        ],
+                        [
+                            -105.5,
+                            46.6599999
+                        ],
+                        [
+                            -105.49,
+                            46.6
+                        ],
+                        [
+                            -105.44999999999999,
+                            46.6
+                        ],
+                        [
+                            -105.43999999999998,
+                            46.57
+                        ],
+                        [
+                            -105.23999999999998,
+                            46.57
+                        ],
+                        [
+                            -105.23999999999998,
+                            46.54
+                        ],
+                        [
+                            -104.98999999999998,
+                            46.54
+                        ],
+                        [
+                            -104.97999999999998,
+                            46.57
+                        ],
+                        [
+                            -104.92999999999998,
+                            46.57
+                        ],
+                        [
+                            -104.93999999999998,
+                            46.29
+                        ],
+                        [
+                            -105.95999989999999,
+                            45.97
+                        ],
+                        [
+                            -105.94999999999999,
+                            46.36
+                        ],
+                        [
+                            -106.14999999999999,
+                            46.71
+                        ],
+                        [
+                            -105.83,
+                            46.86
+                        ],
+                        [
+                            -105.83,
+                            46.83
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5836c5f44227fc3eaebde8287bd78a9e2c2fa52f.001.1",
+                "@type": "wx:Alert",
+                "id": "urn:oid:2.49.0.1.840.0.5836c5f44227fc3eaebde8287bd78a9e2c2fa52f.001.1",
+                "areaDesc": "Northern Rosebud; Custer",
+                "geocode": {
+                    "SAME": [
+                        "030087",
+                        "030017"
+                    ],
+                    "UGC": [
+                        "MTZ031",
+                        "MTZ032"
+                    ]
+                },
+                "affectedZones": [
+                    "https://api.weather.gov/zones/forecast/MTZ031",
+                    "https://api.weather.gov/zones/forecast/MTZ032"
+                ],
+                "references": [],
+                "sent": "2024-06-23T23:21:00-06:00",
+                "effective": "2024-06-23T23:21:00-06:00",
+                "onset": "2024-06-23T23:21:00-06:00",
+                "expires": "2024-06-24T00:00:00-06:00",
+                "ends": null,
+                "status": "Actual",
+                "messageType": "Alert",
+                "category": "Met",
+                "severity": "Moderate",
+                "certainty": "Observed",
+                "urgency": "Expected",
+                "event": "Special Weather Statement",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "senderName": "NWS Billings MT",
+                "headline": "Special Weather Statement issued June 23 at 11:21PM MDT by NWS Billings MT",
+                "description": "At 1120 PM MDT, Doppler radar was tracking strong thunderstorms along\na line extending from 23 miles southeast of Hillside to near Miles\nCity to 19 miles northwest of Volborg. Movement was northeast at 50\nmph.\n\nHAZARD...Wind gusts up to 50 mph and pea size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects. Minor hail damage to vegetation is\npossible.\n\nLocations impacted include...\nMiles City, Twelve Mile Dam, Locate, Garland, Strawberry Hill\nRecreation Area, Matthews Recreation Area, Mizpah, and Knowlton.",
+                "instruction": "If outdoors, consider seeking shelter inside a building.",
+                "response": "Execute",
+                "parameters": {
+                    "AWIPSidentifier": [
+                        "SPSBYZ"
+                    ],
+                    "WMOidentifier": [
+                        "WWUS85 KBYZ 240521"
+                    ],
+                    "NWSheadline": [
+                        "STRONG THUNDERSTORMS WILL IMPACT CENTRAL CUSTER AND NORTHERN ROSEBUD COUNTIES THROUGH MIDNIGHT MDT"
+                    ],
+                    "eventMotionDescription": [
+                        "2024-06-24T05:20:00-00:00...storm...241DEG...48KT...46.68,-106.05 46.39,-105.88 46.08,-105.89"
+                    ],
+                    "maxWindGust": [
+                        "50 MPH"
+                    ],
+                    "maxHailSize": [
+                        "0.25"
+                    ],
+                    "BLOCKCHANNEL": [
+                        "EAS",
+                        "NWEM",
+                        "CMAS"
+                    ],
+                    "EAS-ORG": [
+                        "WXR"
+                    ]
+                }
+            }
+        },
+        {
+            "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a014b98ebf0296ccbf6b88235beaf03235858ccf.001.1",
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -73.37,
+                            39.49
+                        ],
+                        [
+                            -73.44,
+                            39.36
+                        ],
+                        [
+                            -73.50999999999999,
+                            39.269999999999996
+                        ],
+                        [
+                            -74.07999999999998,
+                            39.199999999999996
+                        ],
+                        [
+                            -73.96999999999998,
+                            39.33
+                        ],
+                        [
+                            -73.35999999999999,
+                            39.53
+                        ],
+                        [
+                            -73.37,
+                            39.49
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a014b98ebf0296ccbf6b88235beaf03235858ccf.001.1",
+                "@type": "wx:Alert",
+                "id": "urn:oid:2.49.0.1.840.0.a014b98ebf0296ccbf6b88235beaf03235858ccf.001.1",
+                "areaDesc": "Waters from Manasquan Inlet NJ to Little Egg Inlet NJ out 20 to 40 nm; Waters from Little Egg Inlet NJ to Great Egg Inlet NJ out 20 to 40 nm from 20 to 40 NM",
+                "geocode": {
+                    "SAME": [
+                        "073471",
+                        "073472"
+                    ],
+                    "UGC": [
+                        "ANZ471",
+                        "ANZ472"
+                    ]
+                },
+                "affectedZones": [
+                    "https://api.weather.gov/zones/forecast/ANZ471",
+                    "https://api.weather.gov/zones/forecast/ANZ472"
+                ],
+                "references": [],
+                "sent": "2024-06-24T01:14:00-04:00",
+                "effective": "2024-06-24T01:14:00-04:00",
+                "onset": "2024-06-24T01:14:00-04:00",
+                "expires": "2024-06-24T02:15:00-04:00",
+                "ends": "2024-06-24T02:15:00-04:00",
+                "status": "Actual",
+                "messageType": "Alert",
+                "category": "Met",
+                "severity": "Severe",
+                "certainty": "Likely",
+                "urgency": "Immediate",
+                "event": "Special Marine Warning",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "senderName": "NWS Mount Holly NJ",
+                "headline": "Special Marine Warning issued June 24 at 1:14AM EDT until June 24 at 2:15AM EDT by NWS Mount Holly NJ",
+                "description": "SMWPHI\n\nThe National Weather Service in Mount Holly NJ has issued a\n\n* Special Marine Warning for...\nOuter waters from Manasquan Inlet to Great Egg Inlet NJ out 20 to\n40 nm...\n\n* Until 215 AM EDT.\n\n* At 113 AM EDT, a severe thunderstorm capable of producing\nwaterspouts was located 21 nm southeast of Garden State South Reef,\nmoving east at 35 knots.\n\nHAZARD...Waterspouts and wind gusts 34 knots or greater.\n\nSOURCE...Radar.\n\nIMPACT...Waterspouts can easily overturn boats and create locally\nhazardous seas. Small craft could be damaged in briefly\nhigher winds and suddenly higher waves.\n\n* The severe thunderstorm will remain over mainly open waters.",
+                "instruction": "Move to safe harbor until hazardous weather passes.",
+                "response": "Avoid",
+                "parameters": {
+                    "AWIPSidentifier": [
+                        "SMWPHI"
+                    ],
+                    "WMOidentifier": [
+                        "WHUS51 KPHI 240514"
+                    ],
+                    "eventMotionDescription": [
+                        "2024-06-24T05:13:00-00:00...storm...254DEG...37KT...39.33,-73.76"
+                    ],
+                    "waterspoutDetection": [
+                        "POSSIBLE"
+                    ],
+                    "BLOCKCHANNEL": [
+                        "EAS",
+                        "NWEM",
+                        "CMAS"
+                    ],
+                    "EAS-ORG": [
+                        "WXR"
+                    ],
+                    "VTEC": [
+                        "/O.NEW.KPHI.MA.W.0048.240624T0514Z-240624T0615Z/"
+                    ],
+                    "eventEndingTime": [
+                        "2024-06-24T06:15:00+00:00"
+                    ]
+                },
+                "replacedBy": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.327d41cd921c4f06dd5d716b9a9ecf7bc4dcb8e6.001.1",
+                "replacedAt": "2024-06-24T02:05:00-04:00"
+            }
+        }
+    ],
+    "title": "Watches, warnings, and advisories",
+    "updated": "2024-06-24T07:02:08+00:00",
+    "pagination": {
+        "next": "https://api.weather.gov/alerts?status%5B0%5D=actual&message_type%5B0%5D=alert&limit=20&cursor=eyJ0IjoxNzE5MjA2MDQwLCJpIjoidXJuOm9pZDoyLjQ5LjAuMS44NDAuMC5hMDE0Yjk4ZWJmMDI5NmNjYmY2Yjg4MjM1YmVhZjAzMjM1ODU4Y2NmLjAwMS4xIn0%3D"
+    }
+}
